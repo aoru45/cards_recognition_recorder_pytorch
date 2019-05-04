@@ -2,7 +2,7 @@
 
 ## 最终效果
 
-![2019-05-04 11-11-38 的屏幕截图](/home/xueaoru/图片/2019-05-04 11-11-38 的屏幕截图.png)
+![2019-05-04 11-11-38 的屏幕截图](<https://raw.githubusercontent.com/aoru45/cards_recognition_recorder_pytorch/master/images/jt.png>)
 
 ## 数据准备
 
@@ -50,7 +50,7 @@ class Backgrounds():
 backgrounds = Backgrounds()
 ```
 
-![background](/home/xueaoru/文档/background.png)
+![background](<https://raw.githubusercontent.com/aoru45/cards_recognition_recorder_pytorch/master/images/background.png>)
 
 创造mask用来存取卡片
 
@@ -66,7 +66,7 @@ plt.figure(figsize=(10,10))#10cm高 10cm宽的 画板
 plt.imshow(alphamask) # 在这个画板上显示alphamask图像
 ```
 
-![mask](/home/xueaoru/文档/mask.png)
+![mask](<https://raw.githubusercontent.com/aoru45/cards_recognition_recorder_pytorch/master/images/card.png>)
 
 从一张图里提取卡
 
@@ -250,7 +250,7 @@ Extracted images for 2c : 92
 
 自动标注生成的样子
 
-![cards](/home/xueaoru/文档/cards.png)
+![cards](<https://raw.githubusercontent.com/aoru45/cards_recognition_recorder_pytorch/master/images/contour.png>)
 
 找到标注的凸包位置
 
@@ -351,7 +351,7 @@ def findHull(img, corner=refCornerHL, debug="no"):#corner指的是花色和牌�
     return hull_in_img
 ```
 
-![hull](/home/xueaoru/文档/hull.png)
+![hull](<https://raw.githubusercontent.com/aoru45/cards_recognition_recorder_pytorch/master/images/hull.png>)
 
 从全部视频中提取
 
@@ -631,9 +631,9 @@ class Scene:
         create_voc_xml(xml_fn,jpg_fn, self.listbba,display=display)
 ```
 
-![scene2](/home/xueaoru/文档/scene2.png)
+![scene2](<https://raw.githubusercontent.com/aoru45/cards_recognition_recorder_pytorch/master/images/2.png>)
 
-![scene3](/home/xueaoru/文档/scene3.png)
+![scene3](<https://raw.githubusercontent.com/aoru45/cards_recognition_recorder_pytorch/master/images/3.png>)
 
 大功告成。
 
