@@ -1,0 +1,6 @@
+classes=10
+train=./dataset/train.txt
+valid=./dataset/test.txt
+names=./dataset/coco.names
+backup=backup/
+eval=coco
